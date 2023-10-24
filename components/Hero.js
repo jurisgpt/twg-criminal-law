@@ -1,6 +1,4 @@
 import Image from "next/image";
-// import TestimonialsAvatars from "./TestimonialsAvatars";
-// import config from "@/config";
 import img from '@/app/twitter-image.png'
 
 const Hero = () => {
@@ -27,31 +25,11 @@ const Hero = () => {
                 </h1>
                 <p className="text-lg opacity-80 leading-relaxed">
                     Hey maker, welcome to ShipFast 👋
-                    Choose your template
                 </p>
-                <div className="flex flex-row">
-                    <a
-                        href="https://github.com/Nouman159/ship-fast-main"
-                        target="_blank"
-                    >
-                        <button className="btn btn-primary bg-[#6373ee] mr-5 px-3 py-3 rounded-md">
-                            Get JS Template
-                        </button>
-                    </a>
-                    <a href="https://github.com/Nouman159/ship-fast-ts-main"
-                        target="_blank"
-                    >
-                        <button className="btn btn-primary bg-[#6373ee] px-3 py-3 rounded-md">
-                            Get TSX Template
-                        </button>
-                    </a>
-                </div>
 
-                {/* <TestimonialsAvatars priority={true} /> */}
             </div>
             <div className="lg:w-full">
                 <Image
-                    // src="https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80"
                     src={img}
                     alt="Product Demo"
                     className="w-full"
