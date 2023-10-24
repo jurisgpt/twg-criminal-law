@@ -30,7 +30,7 @@ const Detail = () => {
                         config.js file
                     </h2>
                     <p className="max-w-2xl">
-                        It is where you configure your app. Each key is documented to know how and why it&apos;s used. Have a thorough look at it:
+                        It is where you configure your app. Each key is documented to know how and why it&apos;s used. Have a thorough look at it
                         <span className="font-bold">
                             &nbsp;it is the backbone of the app.
                         </span>
@@ -54,7 +54,7 @@ const Detail = () => {
                     <p className="max-w-2xl">
                         ShipFast comes with many components to help you build SEO-optimized pages (like a landing page) in no time.
                         <div className="mt-6">
-                            The <span className="bg-neutral-400">/components</span> folder contains all you need (hero  pricing FAQ sections). Here&apos;s the list of <a className="underline underline-offset-2 text-yellow-500 font-bold" href="https://shipfa.st/docs/components" target='_blank'>all the components</a> & themes.
+                            The <span className="bg-neutral-400">/components</span> folder contains all you need (hero  pricing FAQ sections). Here&apos;s the list of <a className="underline underline-offset-2 text-yellow-500 font-bold" href="https://shipfa.st/docs/components" target='_blank'>all the components</a> &amp; themes.
                         </div>
                         <div className="mt-6">
                             The <span className="bg-neutral-400">/libs/seo.js</span> file helps you set SEO tags to better rank on Google. Make sure to <a className="underline underline-offset-2 text-yellow-500 font-bold" href="https://shipfa.st/docs/features/seo" target='_blank'>customize SEO tags</a>.
@@ -74,7 +74,7 @@ const Detail = () => {
                             When an error occurs, a beautiful page is shown and users can reach out support through the <span className="bg-neutral-400">ButtonSupport</span> component.
                         </div>
                         <div className="mt-6">
-                            By default it will open the Crisp customer chat (if crisp.id is present in config.js). Here's the <a className="underline underline-offset-2 text-yellow-500 font-bold" href="https://shipfa.st/docs/features/customer-support" target='_blank'>tutorial to set up Crisp</a>.
+                            By default it will open the Crisp customer chat (if crisp.id is present in config.js). Here&apos;s the <a className="underline underline-offset-2 text-yellow-500 font-bold" href="https://shipfa.st/docs/features/customer-support" target='_blank'>tutorial to set up Crisp</a>.
 
                             If crisp.id is not set up in the config.js file, it will open the user mail client (mailto:) and let them them an email to your email support (mailgun.supportEmail in config.js)
                         </div>
