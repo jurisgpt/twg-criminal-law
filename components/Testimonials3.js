@@ -76,7 +76,7 @@ const Testimonials3 = () => {
                             Get started here!
                         </h2>
                     </div>
-                    <p>Here's a quick overview of the boilerplate. Follow along to get your app up and running.</p>
+                    <p>Here&apos;s a quick overview of the boilerplate. Follow along to get your app up and running.</p>
                 </div>
                 <div className="ml-6 sm:ml-10">
                     <h2 className="text-3xl font-bold mb-6">Clone the repositries</h2>
