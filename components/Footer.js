@@ -31,31 +31,41 @@ const Footer = () => {
                         </Link>
 
                         <p className="mt-3 text-sm text-base-content/80">
-                            Ship your startup in days, not weeks
-                        </p>
-                        <p className="mt-3 text-sm text-base-content/60">
-                            Copyright © {new Date().getFullYear()} - All rights reserved
-                        </p>
+                            All original material copyrighted 2021 by Lee Legal Clinic PC. Original web material designed by Brandon Lee.                        </p>
                     </div>
                     <div className="flex-grow flex flex-wrap justify-center -mb-10 md:mt-0 mt-10 text-center">
                         <div className="lg:w-1/3 md:w-1/2 w-full px-4">
                             <div className="footer-title font-semibold text-base-content tracking-widest text-sm md:text-left mb-3">
-                                LINKS
+                                Auto Fraud
                             </div>
 
                             <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
-                                {config.mailgun.supportEmail && (
-                                    <a
-                                        href={`mailto:${config.mailgun.supportEmail}`}
-                                        target="_blank"
-                                        className="link link-hover"
-                                        aria-label="Contact Support"
-                                    >
-                                        Support
-                                    </a>
-                                )}
-                                <Link href="https://shipfast.beehiiv.com/" target="_blank" className="link link-hover">
-                                    Updates
+                                <Link href="/#newyork-auto-fraud-support" className="link link-hover">
+                                    NewYork Support
+                                </Link>
+                                <Link href="/#georgia-auto-fraud-support" className="link link-hover">
+                                    Georgia Support
+                                </Link>
+                                <Link href="/#auto-fraud-laywers" className="link link-hover">
+                                    Auto Fraud Lawyers
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+                            <div className="footer-title font-semibold text-base-content tracking-widest text-sm md:text-left mb-3">
+                                Others
+                            </div>
+
+                            <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
+                                <Link href="/#tos" className="link link-hover">
+                                    Terms of services
+                                </Link>
+                                <Link href="/#privacy-policy" className="link link-hover">
+                                    Privacy policy
+                                </Link>
+                                <Link href="/#contact-us" className="link link-hover">
+                                    Contact Us
                                 </Link>
                             </div>
                         </div>

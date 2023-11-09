@@ -3,6 +3,7 @@ import Hero from '@/components/Hero'
 import Detail from '@/components/Detail'
 import Testimonial3 from '@/components/Testimonials3'
 import Footer from '@/components/Footer'
+import FAQ from '@/components/FAQ'
 
 export default function Home() {
   return (
@@ -10,8 +11,7 @@ export default function Home() {
     <main>
       <Header />
       <Hero />
-      <Testimonial3 />
-      <Detail />
+      <FAQ />
       <Footer />
     </main>
   )
