@@ -5,7 +5,7 @@ const config = {
     appName: "Auto Fraud Law Group",
     // REQUIRED: a short description of your app for SEO tags (can be overwritten)
     appDescription:
-        "The NextJS boilerplate with all you need to build your SaaS, AI tool, or any other web app.",
+        "The Auto Fraud Law Group helps you fight your cases and get your rights",
     // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
     domainName: "shipfa.st",
     crisp: {
