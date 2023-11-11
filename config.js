@@ -2,7 +2,7 @@ import themes from "daisyui/src/theming/themes.js";
 
 const config = {
     // REQUIRED
-    appName: "Auto Fraud Law Group",
+    appName: "ABC Law Group",
     // REQUIRED: a short description of your app for SEO tags (can be overwritten)
     appDescription:
         "The Auto Fraud Law Group helps you fight your cases and get your rights",

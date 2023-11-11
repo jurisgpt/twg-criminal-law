@@ -31,7 +31,8 @@ const Footer = () => {
                         </Link>
 
                         <p className="mt-3 text-sm text-base-content/80">
-                            All original material copyrighted 2021 by Lee Legal Clinic PC. Original web material designed by Brandon Lee.                        </p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+                        </p>
                     </div>
                     <div className="flex-grow flex flex-wrap justify-center -mb-10 md:mt-0 mt-10 text-center">
                         <div className="lg:w-1/3 md:w-1/2 w-full px-4">
@@ -47,7 +48,7 @@ const Footer = () => {
                                     Georgia Support
                                 </Link>
                                 <Link href="/#auto-fraud-laywers" className="link link-hover">
-                                    Auto Fraud Lawyers
+                                    ABC Fraud Lawyers
                                 </Link>
                             </div>
                         </div>

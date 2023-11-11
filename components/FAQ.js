@@ -22,7 +22,7 @@ const faqList = [
     {
         question: "I have another question",
         answer: (
-            <div className="space-y-2 leading-relaxed">Feel free to contact us at autofraud@leelegal.com</div>
+            <div className="space-y-2 leading-relaxed">Feel free to contact us at abc@legal.com</div>
         ),
     },
 ];
