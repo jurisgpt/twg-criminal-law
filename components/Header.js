@@ -9,20 +9,12 @@ import config from "@/config";
 
 const links = [
     {
-        href: "/#autofraud",
-        label: "Auto Fraud",
-    },
-    {
-        href: "/#attorneys",
-        label: "Attorneys",
-    },
-    {
-        href: "/#payments",
-        label: "Cost and Payments",
+        href: "/#home",
+        label: "Home",
     },
 ];
 
-const cta = <button className="btn btn-primary ">Click Here For Appointment
+const cta = <button className="btn btn-primary ">Account
 </button>;
 
 // A header with a logo on the left, links in the center (like Pricing, etc...), and a CTA (like Get Started or Login) on the right.
@@ -164,6 +156,7 @@ const Header = () => {
                                 </div>
                             </div>
                             <div className="divider"></div>
+                            <div className="flex flex-col">{cta}</div>
 
                         </div>
                     </div>
