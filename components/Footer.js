@@ -3,12 +3,10 @@ import Image from "next/image";
 import config from "@/config";
 import logo from "@/app/icon.png";
 
-// Add the Footer to the bottom of your landing page and more.
-// The support link is connected to the config.js file. If there's no config.mailgun.supportEmail, the link won't be displayed.
 
 const Footer = () => {
     return (
-        <footer className="bg-base-200 max-sm:mt-24 border-t border-base-content/10">
+        <footer className="bg-black text-white max-sm:mt-24 border-t border-base-content/10">
             <div className="max-w-7xl mx-auto px-8 py-24">
                 <div className=" flex lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
@@ -31,7 +29,7 @@ const Footer = () => {
                         </Link>
 
                         <p className="mt-3 text-sm text-base-content/80">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+                            11539 Park Woods Cir, Suite 304, Alpharetta, GA
                         </p>
                     </div>
                     <div className="flex-grow flex flex-wrap justify-center -mb-10 md:mt-0 mt-10 text-center">
@@ -41,36 +39,16 @@ const Footer = () => {
                             </div>
 
                             <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
-                                <Link href="/#newyork-auto-fraud-support" className="link link-hover">
-                                    NewYork Support
+                                <Link href="/#contactus" className="link link-hover">
+                                    (192) 121-000-000
                                 </Link>
-                                <Link href="/#georgia-auto-fraud-support" className="link link-hover">
-                                    Georgia Support
-                                </Link>
-                                <Link href="/#auto-fraud-laywers" className="link link-hover">
-                                    ABC Fraud Lawyers
-                                </Link>
-                            </div>
-                        </div>
-
-                        <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-                            <div className="footer-title font-semibold text-base-content tracking-widest text-sm md:text-left mb-3">
-                                Legal
-                            </div>
-
-                            <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
-                                <Link href="/#tos" className="link link-hover">
-                                    Terms of services
-                                </Link>
-                                <Link href="/#privacy-policy" className="link link-hover">
-                                    Privacy policy
-                                </Link>
-                                <Link href="/#contact-us" className="link link-hover">
-                                    Contact Us
+                                <Link href="/#email" className="link link-hover">
+                                    abc@email.com
                                 </Link>
                             </div>
                         </div>
                     </div>
+                    <div className="btn btn-primary max-sm:mt-4 max-sm:mx-2 bg-[#ffffff] p-4 text-black cursor-pointer">Call Now : (192) 121-000-000</div>
                 </div>
             </div>
         </footer>
