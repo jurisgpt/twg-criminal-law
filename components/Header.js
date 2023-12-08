@@ -22,7 +22,7 @@ const links = [
     },
 ];
 
-const cta = <button className="btn btn-primary bg-[#ffffff] p-4 text-black">Call Now : 023-121-000-000</button>;
+const cta = <button className="btn btn-primary bg-[#ffffff] p-4 hover:bg-slate-200 text-black">Call Now : 023-121-000-000</button>;
 
 const Header = () => {
     const searchParams = useSearchParams();

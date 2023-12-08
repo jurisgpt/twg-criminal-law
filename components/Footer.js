@@ -48,7 +48,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="btn btn-primary max-sm:mt-4 max-sm:mx-2 bg-[#ffffff] p-4 text-black cursor-pointer">Call Now : (192) 121-000-000</div>
+                    <div className="btn btn-primary max-sm:mt-4 max-sm:mx-2 bg-[#ffffff] p-4 text-black cursor-pointer hover:bg-slate-200">Call Now : (192) 121-000-000</div>
                 </div>
             </div>
         </footer>
