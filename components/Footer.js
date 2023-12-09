@@ -29,7 +29,7 @@ const Footer = () => {
                         </Link>
 
                         <p className="mt-3 text-sm text-base-content/80">
-                            11539 Park Woods Cir, Suite 304, Alpharetta, GA
+                            11539 Park Woods Cir, Suite 304, Alpharetta, GA 30005 
                         </p>
                     </div>
                     <div className="flex-grow flex flex-wrap justify-center -mb-10 md:mt-0 mt-10 text-center">
@@ -43,7 +43,7 @@ const Footer = () => {
                                     (192) 121-000-000
                                 </Link>
                                 <Link href="/#email" className="link link-hover">
-                                    abc@email.com
+                                    lawoffice@twglawfirm.com
                                 </Link>
                             </div>
                         </div>
