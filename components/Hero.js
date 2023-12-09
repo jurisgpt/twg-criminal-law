@@ -21,17 +21,22 @@ const Hero = () => {
 
 
                 <p className="text-lg opacity-80 leading-relaxed text-left">
-                    Thayer was born and raised in Orlando, Florida. He attended college at the University of South Florida in Tampa, where he obtained a degree in Political Science. After graduation, he attended the University of Georgia, when he acquired his Juris Doctor. While attending the University of Georgia, Thayer interned continuously for various public defender offices, starting with his 1L summer until graduation. During that time, he interned for the DeKalb County, Athens-Clarke County, and Jackson County Public Defenders offices. It was during this time that Thayer secured his first acquittal, for a misdemeanor.
+                    Tristan Gillespie is a proven battle-tested Plaintiffs litigator with 17 years of courtroom experience and he thrives on holding large corporations accountable to consumers.
                 </p>
                 <p className="text-lg opacity-80 leading-relaxed text-left">
-                    Following graduation, Thayer worked for the Barrow County Public Defenders Office for over 3 years, handling felonies and misdemeanors in Superior Court. During that time, he was involved with over one thousand cases, mostly felonies, ranging from drug and theft crimes to child sexual abuse and violent crimes. At trial, Thayers clients were acquitted on charge of drugs, child molestation, and cruelty to children. Additionally, he secured dismissals and reductions for clients involving theft, aggravated assault, drugs, fraud, domestic violence, DUI, and many other charges.
+                    Tristan Gillespie grew up in the Northeast and has lived in Georgia since
+                    2016. Tristan has his BA from SUNY Binghamton, a masters degree in public
+                    policy from Rutgers University, and his law degree from Rutgers University.
+                    Tristan is a tireless litigator and has personally handled over a thousand civil,
+                    commercial and criminal cases. Tristan and his wife Carese have been
+                    married for 25 years and have three beautiful children (ages 19, 17 and 12).
                 </p>
                 <p className="text-lg opacity-80 leading-relaxed text-left">
-                    Thayer approach to handling a case is one that focuses on the adversarial nature of the process. You do not win cases by begging prosecutors or trying to focus on collaborating; you win cases by being prepared, knowing the law, and presenting a strong defense.
+                    Tristan is a member of the bars of Georgia, Maryland, Washington DC, New
+                    Jersey, Texas and New York State. Mr. Gillespie is also licensed to practice law in the
+                    US Supreme Court and 27 different US District Courts and Circuit Courts of
+                    Appeal.
 
-                </p>
-                <p className="text-lg opacity-80 leading-relaxed text-left">
-                    Thayer will be dedicated to getting you the best outcome on your case. He will be prepared for trial, know the law, and tell your story.
                 </p>
             </div>
         </section>
