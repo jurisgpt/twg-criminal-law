@@ -1,8 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import config from "@/config";
-import logo from "@/app/icon.png";
 
+import logo from "@/app/icon.png";
+import LinkedinLogo from '@/assets/icons/linkden.png'
+import TwitterLogo from '@/assets/icons/twitter.png'
 
 const Footer = () => {
     return (
@@ -29,26 +31,48 @@ const Footer = () => {
                         </Link>
 
                         <p className="mt-3 text-sm text-base-content/80">
-                            11539 Park Woods Cir, Suite 304, Alpharetta, GA 30005 
+                            Tristan W. Gillespie, Esq.
+                            11539 Park Woods Cir, Suite 304, Alpharetta, GA 30005
                         </p>
                     </div>
                     <div className="flex-grow flex flex-wrap justify-center -mb-10 md:mt-0 mt-10 text-center">
                         <div className="lg:w-1/3 md:w-1/2 w-full px-4">
                             <div className="footer-title font-semibold text-base-content tracking-widest text-sm md:text-left mb-3">
-                                Links
+                                Contact Us
                             </div>
 
                             <div className="flex flex-col justify-center items-center md:items-start gap-2 mb-10 text-sm">
                                 <Link href="/#contactus" className="link link-hover">
-                                    (192) 121-000-000
+                                    404-276-7277
                                 </Link>
                                 <Link href="/#email" className="link link-hover">
-                                    lawoffice@twglawfirm.com
+                                    abc@gmail.com
                                 </Link>
+
+                                <div className="flex flex-row space-x-2">
+
+                                    <Link href=" https://www.linkedin.com/in/tristangillespie/"
+                                        target="_blank" className="link link-hover">
+                                        <Image src={LinkedinLogo}
+                                            class="dark:!invert hover:opacity-60 transition-opacity duration-500 active:opacity-80"
+                                            alt="linkedin"
+                                            width={40}
+                                            height={40}
+                                        />
+                                    </Link>
+                                    <Link href="/#twitter" className="link link-hover">
+                                        <Image src={TwitterLogo}
+                                            class="dark:!invert hover:opacity-60 transition-opacity duration-500 active:opacity-80"
+                                            alt="linkedin"
+                                            width={40}
+                                            height={40}
+                                        />
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="btn btn-primary max-sm:mt-4 max-sm:mx-2 bg-[#ffffff] p-4 text-black cursor-pointer hover:bg-slate-200">Call Now : (192) 121-000-000</div>
+                    <div className="btn btn-primary max-sm:mt-4 max-sm:mx-2 bg-[#ffffff] p-4 text-black cursor-pointer hover:bg-slate-200">Call Now : 404-276-7277</div>
                 </div>
             </div>
         </footer>

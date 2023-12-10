@@ -4,8 +4,8 @@ import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
-  title: 'ABC  LAW GROUP',
-  description: 'Website that allows the client to reach out potential lawyers to help them',
+  title: 'TWG  Criminal Law',
+  description: 'Tristan Gillespie, a proven battle-tested Plaintiffs litigator with 17 years of courtroom experience and thrives on holding large corporations accountable to consumers.',
 }
 export default function RootLayout({
   children,

@@ -2,10 +2,10 @@ import themes from "daisyui/src/theming/themes.js";
 
 const config = {
     // REQUIRED
-    appName: "ABC Law Group",
+    appName: "TWG Criminal Law",
     // REQUIRED: a short description of your app for SEO tags (can be overwritten)
     appDescription:
-        "The Auto Fraud Law Group helps you fight your cases and get your rights",
+        "Tristan Gillespie, a proven battle-tested Plaintiffs litigator with 17 years of courtroom experience and thrives on holding large corporations accountable to consumers.",
     // REQUIRED (no https://, not trialing slash at the end, just the naked domain)
     domainName: "shipfa.st",
     crisp: {
