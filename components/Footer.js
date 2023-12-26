@@ -4,7 +4,8 @@ import config from "@/config";
 
 import logo from "@/app/icon.png";
 import LinkedinLogo from '@/assets/icons/linkden.png'
-import TwitterLogo from '@/assets/icons/twitter.png'
+import TwitterLogo from '@/assets/icons/download.png'
+import InstaLogo from '@/assets/icons/instagram.svg'
 
 const tristian = {
     address: `Tristan W. Gillespie, Esq.
@@ -18,7 +19,7 @@ const contact = <div className="btn btn-primary max-sm:mt-4 max-sm:mx-2 bg-[#fff
 const Footer = () => {
     return (
         <footer className="bg-black text-white max-sm:mt-24 border-t border-base-content/10">
-            <div className="max-w-7xl mx-auto px-8 py-24">
+            <div className="max-w-7xl mx-auto px-8 py-10">
                 <div className=" flex lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
                         <Link
@@ -68,14 +69,27 @@ const Footer = () => {
                                             height={40}
                                         />
                                     </Link>
-                                    <Link href="/#twitter" className="link link-hover">
+
+                                    <Link href="/#twitter" className="link link-hover mt-1">
+
                                         <Image src={TwitterLogo}
-                                            class="dark:!invert hover:opacity-60 transition-opacity duration-500 active:opacity-80"
+                                            className="dark:!invert hover:opacity-90 transition-opacity duration-500 active:opacity-80 bg-white rounded-md"
                                             alt="twitter profile"
-                                            width={40}
-                                            height={40}
+                                            width={32}
+                                            height={32}
                                         />
                                     </Link>
+
+                                    <Link href="/#instagram" className="link link-hover mt-1">
+
+                                        <Image src={InstaLogo}
+                                            className="dark:!invert hover:opacity-90 transition-opacity duration-500 active:opacity-80 rounded-md"
+                                            alt="twitter profile"
+                                            width={32}
+                                            height={32}
+                                        />
+                                    </Link>
+
                                 </div>
                             </div>
                         </div>
